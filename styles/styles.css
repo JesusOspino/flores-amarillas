@@ -67,44 +67,9 @@ body {
     border-radius: 20px;
 }
 
-@media screen and (min-width: 400px) {
-
-    .img-1,
-    .img-2 {
-        width: 160px;
-        height: 200px;
-    }
-}
-
-@media screen and (min-width: 624px) {
-
-    .name {
-        top: 3rem;
-    }
-
-    .name span {
-        font-size: 2rem;
-    }
-
-    .img-1,
-    .img-2 {
-        width: 180px;
-        height: 220px;
-    }
-    
-}
-
-@media screen and (min-width: 992px) {
-
-    .img-1,
-    .img-2 {
-        width: 200px;
-        height: 250px;
-    }
-}
-
 .flower {
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .flower__glass {
@@ -341,6 +306,46 @@ body {
 .flower__fall-down--purple {
     bottom: 4vmin;
     animation: flower-fall-down-purple 6s 1.2s linear forwards, flower-falling 6s 7.2s linear infinite;
+}
+
+@media screen and (min-width: 400px) {
+
+    .img-1,
+    .img-2 {
+        width: 160px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 624px) {
+
+    .flower {
+        margin-bottom: 0;
+    }
+
+    .name {
+        top: 3rem;
+    }
+
+    .name span {
+        font-size: 2rem;
+    }
+
+    .img-1,
+    .img-2 {
+        width: 180px;
+        height: 220px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    .img-1,
+    .img-2 {
+        width: 200px;
+        height: 250px;
+    }
 }
 
 
